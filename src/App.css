@@ -24,15 +24,39 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-wrapper {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-input {
+  background-color: #041220;
+  border: none;
+  border-radius: 5px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  color: #ffffff;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.form-button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: #23003c;
+  color: #00c5be;
+  font-size: 15px;
+}
+
+.form-button:hover {
+cursor: pointer;
+}
+
+.form-button:active {
+  background-color: #9a00c5;
+  color: #000000;
 }
